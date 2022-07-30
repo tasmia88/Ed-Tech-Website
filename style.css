@@ -1,0 +1,92 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+    position: relative;
+}
+
+.carousel-caption {
+    bottom: 50px;
+    z-index: 2;
+}
+
+.carousel-item h4 {
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+
+.social-icon i {
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 5px;
+    color: white;
+}
+
+/* Responsive CSS */
+/* Phone Devices */
+@media only screen and (max-width:576px) {
+    .carousel-caption {
+        bottom: 5px;
+    }
+
+    .carousel-item {
+        padding: 5px 50px;
+        font-size: 5px;
+    }
+
+    .carousel-item h4 {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    .carousel-item p {
+        padding: 3px 2px;
+        font-size: 8px;
+    }
+
+    .carousel-item button {
+        padding: 2px 3px;
+        font-size: 5px;
+    }
+
+    .trusted-company {
+        display: none;
+    }
+
+    .meet-student h1 {
+        font-size: 30px;
+    }
+}
+
+/* Tab Devices */
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .carousel-caption {
+        bottom: 15px;
+    }
+
+    .carousel-item {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+
+    .carousel-item h4 {
+        padding: 5px 5px;
+        font-size: 20px;
+    }
+
+    .trusted-company {
+        display: none;
+    }
+
+    .meet-student h1 {
+        font-size: 30px;
+    }
+}
